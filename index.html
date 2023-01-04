@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tic-Tac-Toe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1 id="main_title">Tic-Tac-Toe</h1>
+
+  <div>
+    <input type="text" id="b1" onclick="b1Click();checkForWinner();" readonly>
+    <input type="text" id="b2" onclick="b2Click();checkForWinner();" readonly>
+    <input type="text" id="b3" onclick="b3Click();checkForWinner();" readonly>
+  </div>
+
+  <div>
+    <input type="text" id="b4" onclick="b4Click();checkForWinner();" readonly>
+    <input type="text" id="b5" onclick="b5Click();checkForWinner();" readonly>
+    <input type="text" id="b6" onclick="b6Click();checkForWinner();" readonly>
+  </div>
+
+  <div>
+    <input type="text" id="b7" onclick="b7Click();checkForWinner();" readonly>
+    <input type="text" id="b8" onclick="b8Click();checkForWinner();" readonly>
+    <input type="text" id="b9" onclick="b9Click();checkForWinner();" readonly>
+  </div>
+
+
+  <h1 id="win_text">Winner: </h1>
+
+  <input type="text" id="resetButton" onclick="resetGame();" readonly>
+  <input type="text" id="playerTwoSwitch" onclick="switchPlayerTwo();" readonly>
+
+  <div>
+    <h2 id="scoreboard">Player 1: 0   |   Player 2: 0</h2>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
